@@ -1,0 +1,54 @@
+#estime {
+	float:left;
+	overflow-y: auto;
+	width:44.5%;
+	height: 90vh;
+	border: 1px solid black;
+}
+#quintuplet {
+	float: left;
+	margin-left: 4px;
+	overflow-y: auto;
+	width:44.5%;
+	height: 90vh;
+	border: 1px solid black;
+}
+
+#drule {
+	float:right;
+	overflow-y: auto;
+	width:10%;
+	height: 90vh;
+	border: 1px solid black;
+}
+
+td {
+    text-align: center;
+	vertical-align: top;
+	border: 1px solid black;
+}
+
+.table {margin: auto; font-family: Fantasy; font-size: 80%;}
+.arow {background-color:rgb(186, 189, 182);}
+.vrow {background-color: rgb(238, 238, 236);}
+.drFixe {background-color:rgb(186, 189, 182);}
+.dr {background-color:rgb(238, 238, 236);}
+.putTrue {width:14px;; background-color:rgb(78, 154, 6);}
+.putFalse {width:14px; background-color:rgb(238, 238, 236);}
+.aindex {color: rgb(0, 0, 0);}
+.vindex {color: rgb(85, 87, 83);}
+.slc {color: rgb(39, 45, 175);}
+.maxValue{width:14px; color: rgb(204, 0, 0);}
+
+.raw {width:14px; background-color:rgb(238, 238, 236);}
+.current {width:14px; background-color:rgb(252, 175, 62);}
+.treated {width:14px; background-color:rgb(92, 53, 102);}
+.currentDR {width:14px; background-color:rgb(114, 159, 207);}
+.error {width:14px; background-color:rgb(255, 0, 0);}
+.breakPoint {width:14px; background-color:rgb(114, 159, 207)}
+.wayComeBack {width:14px; background-color:rgb(252, 233, 79)}
+.odd{background-color:rgb(173, 127, 168);}
+.even{background-color:rgb(233, 185, 110);}
+
+
+

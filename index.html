@@ -1,0 +1,49 @@
+<html>
+	<head>
+   	<meta charset="utf-8">
+		<link rel="stylesheet" type="text/css" href="./view/style01.css">
+		<script src="jquery-3.4.1.js"></script>
+		<script src="https://code.jquery.com/ui/1.12.0/jquery-ui.min.js"></script>
+  </head>
+
+	<body>
+		<input type="file" id="fileInput">
+		<button onclick="loadData()">Load</button>
+		<input type="number" id="numberState">
+		
+		
+		<div id="global">
+			<div id="estime">
+				<table id="estimeTable" class="table">
+					<tbody>
+					</tbody>
+				</table>
+			</div>
+			
+			<div id="quintuplet">
+				<table id="fiveUpletTable" class="table">
+					<tbody>
+					</tbody>
+				</table>
+			</div>
+	
+			<div id="drule">
+				<table id="dstRuleTable" class="table">
+					<tbody>
+					</tbody>
+				</table>
+			</div>
+		</div>
+		
+		<button onclick="oneStep()">One Step</button>
+	</body>
+
+	<script type="text/javascript" charset="utf-8" src="./model/Link.js"></script>
+	<script type="text/javascript" charset="utf-8" src="./model/VSLT.js"></script>
+	<script type="text/javascript" charset="utf-8" src="./model/ASLT.js"></script>
+	<script type="text/javascript" charset="utf-8" src="./view/show01.js"></script>
+	<script type="text/javascript" charset="utf-8" src="./controler/readData.js"></script>
+	<script type="text/javascript" charset="utf-8" src="./controler/run01.js"></script>
+	<script type="text/javascript" charset="utf-8" src="./controler/command.js"></script>	
+	<script type="text/javascript" charset="utf-8" src="./controler/sortable.js"></script>	
+</html>
